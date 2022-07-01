@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const PORT = process.env.process || 7000
 const { uuid } = require('uuidv4');
-const dotenv = require('dotenv').config()
+
 
 // assigning a variable to express
 const app = express()
