@@ -96,6 +96,7 @@ app.put('/update/:id', (req, res) =>{
         return recipe.id === id ? {...recipe, isCompleted: !recipe.isCompleted} : {...recipe} 
     });
 
+    
     // this finds the recipe with id which matches with th id grabbed
     const findMatch = recipes.find(recipe => recipe.id === id)
     
